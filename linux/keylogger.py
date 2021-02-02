@@ -14,8 +14,6 @@ hm.KeyDown = onKeyboardEvent
 hm.HookKeyboard()
 hm.start()
 
-running = True
-
-while running:
+while True:
 	time.sleep(0.1)
 
